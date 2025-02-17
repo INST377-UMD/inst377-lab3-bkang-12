@@ -4,16 +4,26 @@
     padding: 5px;
     margin: 10px;
     border: solid;
+    clear: right;
 }
-nav{
+.nav{
     background-color: gray;
     border: solid;
     padding: 5px;
     margin: 10px;
-    overflow: hidden;
 }
-nav:active{
-    background-color: White;
+.nav a{
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+.nav a.active {
+  background-color: black;
+  color: white;
 }
 .main {
     background-color: cadetblue;
@@ -24,8 +34,8 @@ nav:active{
     margin: 10px;
     font-family: Comic Sans MS;
 }
-input[type="text"].hover {
-    width: 999px;
+input[type="text"]:hover {
+   width: 300px;
 }
 .sidebar {
     width: 25%;
