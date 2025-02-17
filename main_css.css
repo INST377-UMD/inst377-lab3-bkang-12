@@ -1,0 +1,40 @@
+.headerfooter {
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    margin: 10px;
+    border: solid;
+}
+nav{
+    background-color: gray;
+    border: solid;
+    padding: 5px;
+    margin: 10px;
+    overflow: hidden;
+}
+nav:active{
+    background-color: White;
+}
+.main {
+    background-color: cadetblue;
+    width: 60%;
+    border: solid;
+    float:left;
+    padding: 5px;
+    margin: 10px;
+    font-family: Comic Sans MS;
+}
+input[type="text"].hover {
+    width: 999px;
+}
+.sidebar {
+    width: 25%;
+    border: solid;
+    background-color: red;
+    float: right;
+    padding: 15px;
+    margin: 10px;
+}
+.sidebar:hover{
+    background-color:FireBrick;
+}
