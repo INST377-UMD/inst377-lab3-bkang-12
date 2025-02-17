@@ -1,0 +1,50 @@
+.headerfooter {
+    text-align: center;
+    background-color: orange;
+    padding: 5px;
+    margin: 10px;
+    border: solid;
+    clear: right;
+}
+.nav{
+    background-color: gray;
+    border: solid;
+    padding: 5px;
+    margin: 10px;
+}
+.nav a{
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 5px;
+}
+.nav a:hover {
+  background-color: white;
+  color: black;
+}
+.nav a.active {
+  background-color: black;
+  color: white;
+}
+.main {
+    background-color: cadetblue;
+    width: 60%;
+    border: solid;
+    float:left;
+    padding: 5px;
+    margin: 10px;
+    font-family: Comic Sans MS;
+}
+input[type="text"]:hover {
+   width: 300px;
+}
+.sidebar {
+    width: 25%;
+    border: solid;
+    background-color: red;
+    float: right;
+    padding: 15px;
+    margin: 10px;
+}
+.sidebar:hover{
+    background-color:FireBrick;
+}
